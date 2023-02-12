@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CraveNFeast/static/css/main.a1e23fff.css",
+    "main.js": "/CraveNFeast/static/js/main.c74d6d98.js",
+    "static/media/CFVideo.mp4": "/CraveNFeast/static/media/CFVideo.f8ec43efae2a074fc688.mp4",
+    "static/media/CraveFeast.png": "/CraveNFeast/static/media/CraveFeast.c37b2bf8a2529259d9ab.png",
+    "index.html": "/CraveNFeast/index.html",
+    "main.a1e23fff.css.map": "/CraveNFeast/static/css/main.a1e23fff.css.map",
+    "main.c74d6d98.js.map": "/CraveNFeast/static/js/main.c74d6d98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1e23fff.css",
+    "static/js/main.c74d6d98.js"
+  ]
+}
