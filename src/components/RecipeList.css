@@ -1,0 +1,8 @@
+.recipe-row{
+    justify-content: space-around; 
+    flex-flow: row wrap;
+}
+.column{
+    float: left;
+    width: 33.33%;
+}

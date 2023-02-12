@@ -1,0 +1,101 @@
+/* *{
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+
+} */
+
+.landing-container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding:0;
+    margin:0;
+    left: 0px;
+    top: 0px;
+    z-index: -1000;
+    overflow:hidden;
+}
+
+.video{
+    width: 100vw;
+    height: 100vh;
+    /* //min-width:100%; - if fit to width */
+    /* position:absolute; */
+    bottom:0;
+    left:0;
+    position: fixed;
+}
+
+.landingpage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    position:relative;
+    transition: 0.5s;
+    font-family: "Merianda";
+}
+
+.video-cf{
+    width: 100%;
+    height: 100vh;
+    position:absolute;
+    top: 0;
+    z-index:-5;
+    object-fit:cover;
+}
+
+/* .cf-overlay{
+    height: 100%;
+    width:100%;
+    background-color: rgba(0,0,0,0,5);
+    position: absolute;
+    top: 0;
+    z-index:0;
+} */
+
+.home-text{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    z-index: 2;
+    font-family: "Merianda"
+}
+
+.landing-h1{
+    font-size: 6em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+p{
+    justify-self: flex-end;
+    font-size: 2em;
+}
+
+.landing-home-btn{
+    width: 6em;
+    height: 2em;
+    border: 2px solid white;
+    border-radius: .25em;
+    background-color: white;
+    z-index:3;
+    font-size: 2em;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    cursor: pointer;
+   
+    
+
+}
+
+.link-btn{
+    text-decoration: none;
+}

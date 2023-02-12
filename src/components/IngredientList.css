@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+
+.container{
+    align-items: center;
+    justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.5em;
+    padding-bottom: 2.5em;
+    /* justify-content: space-around; */
+    /* flex-flow: row wrap; */
+    /* flex: 1 100%;
+    width:92.5%;
+    align-self: center;
+   
+    margin: 0; */
+} 
+
+.ingredient-header{
+    align-items: center;
+    justify-content: center;
+    border-color: #B08401;
+    background-color: #B08401;
+    color: white;
+
+
+    /* justify-content: center; */
+}
+
+.btn-wrapper{
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-around;  */
+    /* flex-flow: row wrap; */
+}
+
+.ingredient-btn{
+    margin-right: 1rem;
+}
+
+/* Add spacing around buttons, add h2 heading, add container around border to form */
